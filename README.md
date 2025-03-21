@@ -29,8 +29,9 @@ ack=c.recv(1024).decode()
  
 if ack:
     print(ack)
- 
 c.close()
+
+
 ```
 
 Server.py
